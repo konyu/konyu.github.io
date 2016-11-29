@@ -19,20 +19,7 @@
       padding-left: 40px;
     }
   </style>
-
-
   <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-
-  <script type="text/javascript">
-    window.onload = function(){
-      document.getElementById("setButton1").onclick = function(){
-        document.getElementById("cssMain").href = "css/style.css";
-      }
-      document.getElementById("setButton2").onclick = function(){
-        document.getElementById("cssMain").href = "https://code.getmdl.io/1.2.1/material.indigo-pink.min.css";
-      }
-    }
-  </script>
 </head>
 <body class="mdl-color--grey-120 mdl-color-text--grey-700 mdl-base">
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
@@ -70,7 +57,7 @@
         <input type="button" id="setButton1" value="main.cssに切替え"><br>
         <input type="button" id="setButton2" value="main2.cssに切替え"><br>
 
-        <section class="about" id="about">
+        <section class="content" id="profile">
           <h2 class="heading">ABOUT ME</h2>
           <p class="about-text">
             はじめまして。日本でWebデザイナーをしています。<br>
@@ -79,34 +66,51 @@
             デザインの専門学校を卒業し、制作会社での業務経験を経て、現在はフリーランスとして働いています。
             はじめまして。日本でWebデザイナーをしています。<br>
             デザインの専門学校を卒業し、制作会社での業務経験を経て、現在はフリーランスとして働いています。
-            はじめまして。日本でWebデザイナーをしています。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            はじめまして。日本でWebデザイナーをしています。
             デザインの専門学校を卒業し、制作会社での業務経験を経て、現在はフリーランスとして働いています。
             はじめまして。日本でWebデザイナーをしています。<br>
             デザインの専門学校を卒業し、制作会社での業務経験を経て、現在はフリーランスとして働いています。
 
           </p>
         </section>
-        <section id="profile">
+        <section class="content" id="portfolio">
           <h2 class="heading">Profile</h2>
-          <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--4-col">Content</div>
-            <div class="mdl-cell mdl-cell--4-col">goes</div>
-            <div class="mdl-cell mdl-cell--4-col">here</div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col">Content</div>
+            <div class="mdl-cell mdl-cell--6-col">goes</div>
           </div>
-        </section>
-        <section class="skills">
-          <h2 class="heading">MY SKILLS</h2>
-          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </section>
-        <section class="contact" id="contact">
-          <h2 class="heading">CONTACT</h2>
-          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </section>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col">aaaa</div>
+            <div class="mdl-cell mdl-cell--6-col">bbb</div>
+          </div>
 
+        </section>
+        <section class="content" id="skills">
+          <h2 class="heading">MY SKILLS</h2>
+        </section>
+        <section class="content" id="contact">
+          <h2 class="heading">CONTACT</h2>
+        </section>
       </div>
     </main>
     <footer class="footer">
         © コンユウのホームページ
     </footer>
 </body>
+<script type="text/javascript">
+  var $sections = document.querySelectorAll('section');
+  var height = window.innerHeight;
+  $sections.forEach(function(section, i){
+    section.style.height = height + 'px';
+  });
+
+  window.onload = function(){
+    document.getElementById("setButton1").onclick = function(){
+      document.getElementById("cssMain").href = "css/style.css";
+    }
+    document.getElementById("setButton2").onclick = function(){
+      document.getElementById("cssMain").href = "https://code.getmdl.io/1.2.1/material.indigo-pink.min.css";
+    }
+  }
+</script>
 </html>
