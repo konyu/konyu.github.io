@@ -8,18 +8,13 @@
   <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:700,400">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/normalize.css"> -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
 
-  <!-- <link rel="stylesheet" href="css/style.css" id="cssMain"> -->
-
+  <link rel="stylesheet" href="./css/material.min.css">
+  <script src="./js/material.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
-  <style>
-    .page-content {
-      padding-left: 40px;
-    }
-  </style>
-  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" id="cssMain">
+
 </head>
 <body class="mdl-color--grey-120 mdl-color-text--grey-700 mdl-base">
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
@@ -45,7 +40,7 @@
       <span class="mdl-layout-title">Title</span>
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="#profile">プロフィール</a>
-        <a class="mdl-navigation__link" href="#portfolio">ポートフォリオ</a>
+        <a class="mdl-navigation__link" href="#portfolio">ポートフォリオ<img class="new-icon" src="images/new_icon.jpg"></a>
         <a class="mdl-navigation__link" href="">ゲストブック</a>
         <a class="mdl-navigation__link" href="">クソアプリを作っている人に100の質問(工事中)</a>
         <a class="mdl-navigation__link" href="">我が家のパソコン環境</a>
@@ -59,7 +54,10 @@
 
         <section class="content" id="profile">
           <h2 class="heading">ABOUT ME</h2>
-          <p class="about-text">
+          <p class="about-text marquee">
+            <!-- Number badge -->
+            <span class="mdl-badge" data-badge="new">Inbox</span>
+
             はじめまして。日本でWebデザイナーをしています。<br>
             デザインの専門学校を卒業し、制作会社での業務経験を経て、現在はフリーランスとして働いています。
             はじめまして。日本でWebデザイナーをしています。<br>
@@ -73,17 +71,139 @@
 
           </p>
         </section>
-        <section class="content" id="portfolio">
+        <section class="content2" id="portfolio">
           <h2 class="heading">Profile</h2>
+
+
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col">Content</div>
-            <div class="mdl-cell mdl-cell--6-col">goes</div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              Docker composeで開発環境をメンバに配布せよ<br/>
+              Published on Sep 27, 2016
+            </br/>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <iframe src="//www.slideshare.net/slideshow/embed_code/key/IDfQpTwbj6M9AH" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/docker-compose-66451859" title="Docker composeで開発環境をメンバに配布せよ" target="_blank">Docker composeで開発環境をメンバに配布せよ</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col">aaaa</div>
-            <div class="mdl-cell mdl-cell--6-col">bbb</div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              RubyでRoombaをハックする<br/>
+              Published on Aug 19, 2016
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <iframe src="//www.slideshare.net/slideshow/embed_code/key/aCvggnWPcNvuj" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/rubyroomba" title="RubyでRoombaをハックする" target="_blank">RubyでRoombaをハックする</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              オンライン英会話サービスのオペレーション業務改善施策<br/>
+              Published on May 24, 2016
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <iframe src="//www.slideshare.net/slideshow/embed_code/key/fSO9p7uDFq8IwQ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/3-62336705" title="管理画面チラ見せナイト3　登壇資料" target="_blank">管理画面チラ見せナイト3　登壇資料</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              よしなにエンジニアのすすめ<br/>
+              Published on Feb 26, 2016
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <iframe src="//www.slideshare.net/slideshow/embed_code/key/dRBqQTCw0QPvIz" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/yoshinani-58736396" title="Yoshinani" target="_blank">Yoshinani</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              RubyエンジニアがPythonをdisるためにPythonを勉強してみた<br/>
+              Published on Oct 24, 2015
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <iframe src="//www.slideshare.net/slideshow/embed_code/key/7t1imwAFXdlUB8" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/rubypythondispython" title="RubyエンジニアがPythonをdisるためにPythonを勉強してみた" target="_blank">RubyエンジニアがPythonをdisるためにPythonを勉強してみた</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              SIerからWebエンジニアへの失敗しない転職方法<br/>
+              Published on Aug 21, 2015
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <iframe src="//www.slideshare.net/slideshow/embed_code/key/e4Q7hFrwBcqqZD" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/sierweb-51894411" title="SIerからWebエンジニアへの失敗しない転職方法" target="_blank">SIerからWebエンジニアへの失敗しない転職方法</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              俺らみたいなコミュ症が 合コンに勝利するたった一つ の方法<br/>
+              Published on Mar 29, 2014
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <iframe src="//www.slideshare.net/slideshow/embed_code/key/bv4Zm5RamKBSG" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/tokyu-ruby-kaigi07" title="Tokyu ruby kaigi07" target="_blank">Tokyu ruby kaigi07</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              Appiumを用いたiOS(Android)受け入れテスト<br/>
+              Published on Dec 5, 2013
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <iframe src="//www.slideshare.net/slideshow/embed_code/key/2v4WJMqR7kXw2o" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/appiumiosandroid" title="Appiumを用いたiOS(Android)受け入れテスト" target="_blank">Appiumを用いたiOS(Android)受け入れテスト</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            </div>
           </div>
 
+
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              おうちハックLT Roombaでネコを監視してみた<br/>
+              Published June 6, 2015
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <script async class="speakerdeck-embed" data-id="1b760afcbbc34fc78602dcb23f1f6a2b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              Gemの作り方　BacklogのAPIを利用して<br/>
+              Published March 25, 2015
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <script async class="speakerdeck-embed" data-id="2f4d352217004d2c85623e052d919976" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              Processingでクリエイティブコーディング<br/>
+              Published December 15, 2014
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <script async class="speakerdeck-embed" data-id="19947ad066670132d4a12274333a119a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              スタートアップツールチラ見せナイト<br/>
+              Published December 10, 2014
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <script async class="speakerdeck-embed" data-id="9a244600623401325cc3023c346bad18" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              HerokuでRailsアプリ運用のパフォーマンス、SEO対策<br/>
+              Published December 4, 2014
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <script async class="speakerdeck-embed" data-id="e3b645505d8e013232dc2e3489c2afa1" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              HerokuでWBS砲を打ち返した話<br/>
+              Published October 22, 2014
+            </div>
+            <div class="mdl-cell mdl-cell--6-col table-cell">
+              <script async class="speakerdeck-embed" data-slide="1" data-id="68bb412039c40132e0fe3e50d861d083" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            </div>
+          </div>
         </section>
         <section class="content" id="skills">
           <h2 class="heading">MY SKILLS</h2>
@@ -98,7 +218,7 @@
     </footer>
 </body>
 <script type="text/javascript">
-  var $sections = document.querySelectorAll('section');
+  var $sections = document.querySelectorAll('.content');
   var height = window.innerHeight;
   $sections.forEach(function(section, i){
     section.style.height = height + 'px';
