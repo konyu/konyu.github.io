@@ -15,13 +15,12 @@
 <body class="mdl-color--grey-120 mdl-color-text--grey-700 mdl-base">
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
             mdl-layout--fixed-header">
-    <!-- <header class="mdl-layout__header">
+    <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">コンユウのページ</span>
+        <span class="mdl-layout-title">コンユウのホームページ</span>
       </div>
-    </header> -->
+    </header>
     <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Title</span>
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="#profile">プロフィール</a>
         <a class="mdl-navigation__link" href="#portfolio">ポートフォリオ<img class="new-icon" src="images/new_icon.jpg"></a>
@@ -33,7 +32,7 @@
     <main class="mdl-layout__content">
       <div class="page-content">
         <!-- yahoo -->
-        <div style="margin-left: -40px;">
+        <div>
           <div style="float:left; width:468px;">
           <a href="http://rdsig.yahoo.co.jp/geo/geoguide/top/RV=1/RU=aHR0cDovL2dlb2NpdGllcy55YWhvby5jby5qcC8-" target="new" class="geoNav">
           <span>大容量10GBのジオプラスならドメイン無料！</span>
@@ -43,12 +42,13 @@
           <div><a href="http://mystore.geocities.yahoo.co.jp/" ontouchend="this.href='http://rdsig.yahoo.co.jp/geo/userpage/bnr/01/RV=1/RU=aHR0cDovL215c3RvcmUuZ2VvY2l0aWVzLnlhaG9vLmNvLmpwLw--'" onmousedown="this.href='http://rdsig.yahoo.co.jp/geo/userpage/bnr/01/RV=1/RU=aHR0cDovL215c3RvcmUuZ2VvY2l0aWVzLnlhaG9vLmNvLmpwLw--'" target="new"><img src="http://i.yimg.jp/images/geo/bnr/01/140609_mystore_270_101.png" width="270" height="101" border="0" alt="Yahoo!ジオシティーズの新機能　お店のホームページが5分で出来る！　マイストアの詳細を見る" title="Yahoo!ジオシティーズの新機能　お店のホームページが5分で出来る！　マイストアの詳細を見る"></a></div></div>
         </div>
         <!-- yahoo -->
-
-        <div style="clear: both">
-          Sorry,this site is Japanese ONLY
-        </div>
+        <div style="clear: both"></div>
 
         <section class="content" id="profile">
+          <div>
+            Sorry,this site is Japanese ONLY
+          </div>
+
           <h2 class="heading">ようこそコンユウのホームページへ</h2>
 
           <h5>
@@ -57,12 +57,39 @@
             <script language="javascript" type="text/javascript" src="http://counter1.fc2.com/counter.php?id=12442254&main=1"></script><noscript><img src="http://counter1.fc2.com/counter_img.php?id=12442254&main=1" /></noscript>
             <!-- FC2カウンター ここまで -->
             の訪問者です
-        　</h5>
+          </h5>
 
+          <h5>About me</h5>
+          <div>
+            <p>趣味：愛猫を愛でること、Maker Faire等イベントに出店すること</p>
+            <p>興味：IoT, ロボット、センサネットワーク、分散協調、機械学習、フィジカルコンピューティング、パーソナルファブリケーション</p>
+            <p>興味の領域をビジネスに持って行きたいと考えている<br/>
+            面白くて役に立つ、そんなものを作って行きたい。</p>
+            <h6>アプリケーション開発言語:</h6>
+            <p>仕事ですぐ使える言語<br/>
+              Ruby(Rails), C#, Processing<br/></p>
+            <p>インフラ構築:<br/>
+            Java, Objective-C, Swift,  openframeworks</p>
+            <h6>アプリケーション開発言語:</h6>
 
-          <p class="about-text">
+            <p>小規模Linuxシステムを自分で構築運用できる程度<br/>
+              Herokuを使うことにかけては本番環境での運用経験もあります。Salesfoceでのイベント登壇経験あり<br/>
+              最近はDockerで開発環境を構築するのが好き<br/>
+              AWSﾁｮｯﾄﾃﾞｷﾙ
+            </p>
+            <p>現職CTOなので、チームビルディング、開発体制構築、アジャイル開発、開発ロードマップの作成、エンジニア採用など、開発に関わることなら一通りなんでも出来ます
+            </p>
+            <h5>About me</h5>
+            <p>
+              やりたいビジネス分野は　O2O、気づき支援、遠隔地間のコラボレーション<br/>
+              個人の知の領域が広がることを支援できるものに興味がある。<br/>
 
-          </p>
+              業務効率と生産性をあげ労働時間の圧縮する組織づくりと、そのノウハウの共有<br/>
+
+              面白くて役に立つ、そんなものを作って行きたい。
+            </p>
+
+          </div>
 
           <div class="bottom">
             <div>
@@ -77,221 +104,263 @@
             </p>
           </div>
         </section>
-        <section class="content2" id="portfolio">
+        <section class="content" id="portfolio">
           <h2>ポートフォリオのページ</h2>
           <h3>登壇資料</h3>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              Docker composeで開発環境をメンバに配布せよ<br/>
-              Published on Sep 27, 2016
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Date
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              イベント名
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              スライド
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Sep 27, 2016
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://connpass.com/event/39963/">第一回スタートアップRails勉強会</a>
             </br/>
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <iframe src="//www.slideshare.net/slideshow/embed_code/key/IDfQpTwbj6M9AH" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/docker-compose-66451859" title="Docker composeで開発環境をメンバに配布せよ" target="_blank">Docker composeで開発環境をメンバに配布せよ</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/docker-compose-66451859" title="Docker composeで開発環境をメンバに配布せよ" target="_blank">Docker composeで開発環境をメンバに配布せよ</a>
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              RubyでRoombaをハックする<br/>
-              Published on Aug 19, 2016
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Aug 19, 2016
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <iframe src="//www.slideshare.net/slideshow/embed_code/key/aCvggnWPcNvuj" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/rubyroomba" title="RubyでRoombaをハックする" target="_blank">RubyでRoombaをハックする</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="http://regional.rubykaigi.org/kwsk01/">川崎Ruby会議01</a>
             </div>
-          </div>
-          <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              オンライン英会話サービスのオペレーション業務改善施策<br/>
-              Published on May 24, 2016
-            </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <iframe src="//www.slideshare.net/slideshow/embed_code/key/fSO9p7uDFq8IwQ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/3-62336705" title="管理画面チラ見せナイト3　登壇資料" target="_blank">管理画面チラ見せナイト3　登壇資料</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/rubyroomba" title="RubyでRoombaをハックする" target="_blank">RubyでRoombaをハックする</a> </strong>
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              よしなにエンジニアのすすめ<br/>
-              Published on Feb 26, 2016
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              May 24, 2016
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <iframe src="//www.slideshare.net/slideshow/embed_code/key/dRBqQTCw0QPvIz" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/yoshinani-58736396" title="Yoshinani" target="_blank">Yoshinani</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://connpass.com/event/31779/">管理画面チラ見せナイト3</a>
             </div>
-          </div>
-          <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              RubyエンジニアがPythonをdisるためにPythonを勉強してみた<br/>
-              Published on Oct 24, 2015
-            </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <iframe src="//www.slideshare.net/slideshow/embed_code/key/7t1imwAFXdlUB8" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/rubypythondispython" title="RubyエンジニアがPythonをdisるためにPythonを勉強してみた" target="_blank">RubyエンジニアがPythonをdisるためにPythonを勉強してみた</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/3-62336705" title="管理画面チラ見せナイト3　登壇資料" target="_blank">オンライン英会話サービスのオペレーション業務改善施策</a>
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              SIerからWebエンジニアへの失敗しない転職方法<br/>
-              Published on Aug 21, 2015
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Feb 26, 2016
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <iframe src="//www.slideshare.net/slideshow/embed_code/key/e4Q7hFrwBcqqZD" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/sierweb-51894411" title="SIerからWebエンジニアへの失敗しない転職方法" target="_blank">SIerからWebエンジニアへの失敗しない転職方法</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://eventdots.jp/event/581793">【#TechHub】Career Ngiht!! エンジニアのキャリアを最大化する戦略会議</a>
             </div>
-          </div>
-          <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              俺らみたいなコミュ症が 合コンに勝利するたった一つ の方法<br/>
-              Published on Mar 29, 2014
-            </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <iframe src="//www.slideshare.net/slideshow/embed_code/key/bv4Zm5RamKBSG" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/tokyu-ruby-kaigi07" title="Tokyu ruby kaigi07" target="_blank">Tokyu ruby kaigi07</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/yoshinani-58736396" title="Yoshinani" target="_blank">よしなにエンジニアのすすめ</a>
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              Appiumを用いたiOS(Android)受け入れテスト<br/>
-              Published on Dec 5, 2013
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Oct 24, 2015
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <iframe src="//www.slideshare.net/slideshow/embed_code/key/2v4WJMqR7kXw2o" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kon_yu/appiumiosandroid" title="Appiumを用いたiOS(Android)受け入れテスト" target="_blank">Appiumを用いたiOS(Android)受け入れテスト</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/kon_yu">Yusuke Kon</a></strong> </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://pyladies-tokyo.connpass.com/event/20158/">PyLadies Tokyo - 一周年記念パーティ</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/rubypythondispython" title="RubyエンジニアがPythonをdisるためにPythonを勉強してみた" target="_blank">RubyエンジニアがPythonをdisるためにPythonを勉強してみた</a>
             </div>
           </div>
 
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Aug 21, 2015
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://tech-eight.doorkeeper.jp/events/29672">【テクスタ☆】一社目の企業選びが成功の秘訣！？SE出身ベストティーチャーのCTO今氏が語る、SIerからWebエンジニアへの失敗しない転職方法</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/sierweb-51894411" title="SIerからWebエンジニアへの失敗しない転職方法" target="_blank">SIerからWebエンジニアへの失敗しない転職方法</a>
+            </div>
+          </div>
 
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              おうちハックLT Roombaでネコを監視してみた<br/>
-              Published June 6, 2015
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Mar 29, 2014
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <script async class="speakerdeck-embed" data-id="1b760afcbbc34fc78602dcb23f1f6a2b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://tokyu-rubykaigi.doorkeeper.jp/events/9219">TokyuRubyKaigi07</a>
             </div>
-          </div>
-          <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              Gemの作り方　BacklogのAPIを利用して<br/>
-              Published March 25, 2015
-            </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <script async class="speakerdeck-embed" data-id="2f4d352217004d2c85623e052d919976" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/tokyu-ruby-kaigi07" title="Tokyu ruby kaigi07" target="_blank">俺らみたいなコミュ症が 合コンに勝利するたった一つ の方法 </a>
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              Processingでクリエイティブコーディング<br/>
-              Published December 15, 2014
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Dec 5, 2013
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <script async class="speakerdeck-embed" data-id="19947ad066670132d4a12274333a119a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              ios部@下北沢オープンソースカフェ
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/appiumiosandroid" title="Appiumを用いたiOS(Android)受け入れテスト" target="_blank">Appiumを用いたiOS(Android)受け入れテスト</a>
+            </div>
+          </div>
+
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              June 6, 2015
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://www.facebook.com/events/793311034038312/">おうちハック発表会　＃３</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/outihatukult-roombadenekowojian-shi-sitemita">おうちハックLT Roombaでネコを監視してみた</a>
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              スタートアップツールチラ見せナイト<br/>
-              Published December 10, 2014
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              March 25, 2015
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <script async class="speakerdeck-embed" data-id="9a244600623401325cc3023c346bad18" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://kawasakirb.doorkeeper.jp/events/22368">Kawasaki.rb #022</a>
             </div>
-          </div>
-          <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              HerokuでRailsアプリ運用のパフォーマンス、SEO対策<br/>
-              Published December 4, 2014
-            </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <script async class="speakerdeck-embed" data-id="e3b645505d8e013232dc2e3489c2afa1" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/gemfalsezuo-rifang-backlogfalseapiwoli-yong-site">Gemの作り方　BacklogのAPIを利用して</a>
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              HerokuでWBS砲を打ち返した話<br/>
-              Published October 22, 2014
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              December 15, 2014
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
-              <script async class="speakerdeck-embed" data-slide="1" data-id="68bb412039c40132e0fe3e50d861d083" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              何で発表したか忘れた。確か<a href="https://twitter.com/srockstyle">@srockstyle</a>主催のイベント
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/processingtekurieiteibukodeingu">Processingでクリエイティブコーディング</a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              December 10, 2014
+            </div>
+
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://coedo-dev.doorkeeper.jp/events/17922" >スタートアップツールチラ見せ♡ナイト</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/sutatoatuputurutirajian-senaito">スタートアップツールチラ見せ ナイト</a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              December 4, 2014
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="http://jp.force.com/devzone2014">Salesforce World Tour Tokyo 2014 DevZone</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/herokuterailsahuriyun-yong-falsehahuomansu-seodui-ce">HerokuでRailsアプリ運用のパフォーマンス、SEO対策</a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              October 22, 2014
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://kawasakirb.doorkeeper.jp/events/16354">Kawasaki.rb #017</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/herokudewbspao-woda-tifan-sitahua">HerokuでWBS砲を打ち返した話</a>
             </div>
           </div>
         </section>
+
         <section class="content" id="mypc">
           <h2>我が家のパソコン環境のページ</h2>
           <h3>メインマシン MacBook Pro Retina 2013 late 13inch</h3>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               CPU
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               2.4GHzデュアルコアIntel Core i5プロセッサ
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               メモリ
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               16GB DDR3
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               ストレージ
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               SSD 256GB
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               ディスプレイサイズ
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               13.3 インチ
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               ディスプレイ解像度
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               2560 x 1600
             </div>
           </div>
 
           <h3>メインマシン予定　MacBook Pro Retina 2016 late 13inch Touch Bar搭載モデル　まだ来ないヽ(；´Д｀)ノ </h3>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               CPU
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               3.3GHzデュアルコアIntel Core i7プロセッサ
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               メモリ
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               16GB DDR3
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               ストレージ
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               SSD 512GB
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               ディスプレイサイズ
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               13.3 インチ
             </div>
           </div>
           <div class="mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               ディスプレイ解像度
             </div>
-            <div class="mdl-cell mdl-cell--6-col table-cell">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
               2560 x 1600
             </div>
           </div>
@@ -306,11 +375,16 @@
   var $sections = document.querySelectorAll('.content');
   var height = window.innerHeight;
   $sections.forEach(function(section, i){
-    section.style.height = height + 'px';
+    if(section.offsetHeight < height){
+      section.style.height = height + 'px';
+      var $bottom = section.querySelectorAll('.bottom')[0];
+      if($bottom != undefined){
+        $bottom.style.top = (height - 300)+ 'px';
+        $bottom.style.position = "absolute";
+      }
+    }
   });
 
-  var $bottom = document.querySelector('.bottom');
-  $bottom.style.top = (height - 300)+ 'px';
 </script>
 
 <!--★コピーここから★-->
