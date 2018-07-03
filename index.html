@@ -1,327 +1,518 @@
-<!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 12.0.0.0 for Windows" />
+  <title>無題ドキュメント</title>
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+  <link rel="stylesheet" href="./css/material.min.css">
+  <script src="./js/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/style_2000.css" id="cssMain">
 
-      https://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Android</title>
-
-    <!-- Page styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    </style>
-  </head>
-  <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
-      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
-        <div class="mdl-layout__header-row">
-          <span class="android-title mdl-layout-title">
-            <img class="android-logo-image" src="images/android-logo.png">
-          </span>
-          <!-- Add spacer, to align navigation to the right in desktop -->
-          <div class="android-header-spacer mdl-layout-spacer"></div>
-          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-              <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="search-field">
-            </div>
-          </div>
-          <!-- Navigation -->
-          <div class="android-navigation-container">
-            <nav class="android-navigation mdl-navigation">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Phones</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Tablets</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Wear</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">TV</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Auto</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">One</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Play</a>
-            </nav>
-          </div>
-          <span class="android-mobile-title mdl-layout-title">
-            <img class="android-logo-image" src="images/android-logo.png">
-          </span>
-          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
-            <i class="material-icons">more_vert</i>
-          </button>
-          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
-            <li class="mdl-menu__item">5.0 Lollipop</li>
-            <li class="mdl-menu__item">4.4 KitKat</li>
-            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
-            <li class="mdl-menu__item">Android History</li>
-          </ul>
-        </div>
+</head>
+<body class="mdl-color--grey-120 mdl-color-text--grey-700 mdl-base">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+            mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">コンユウのホームページ</span>
       </div>
-
-      <div class="android-drawer mdl-layout__drawer">
-        <span class="mdl-layout-title">
-          <img class="android-logo-image" src="images/android-logo-white.png">
-        </span>
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Phones</a>
-          <a class="mdl-navigation__link" href="">Tablets</a>
-          <a class="mdl-navigation__link" href="">Wear</a>
-          <a class="mdl-navigation__link" href="">TV</a>
-          <a class="mdl-navigation__link" href="">Auto</a>
-          <a class="mdl-navigation__link" href="">One</a>
-          <a class="mdl-navigation__link" href="">Play</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Versions</span>
-          <a class="mdl-navigation__link" href="">Lollipop 5.0</a>
-          <a class="mdl-navigation__link" href="">KitKat 4.4</a>
-          <a class="mdl-navigation__link" href="">Jelly Bean 4.3</a>
-          <a class="mdl-navigation__link" href="">Android history</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Resources</span>
-          <a class="mdl-navigation__link" href="">Official blog</a>
-          <a class="mdl-navigation__link" href="">Android on Google+</a>
-          <a class="mdl-navigation__link" href="">Android on Twitter</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">For developers</span>
-          <a class="mdl-navigation__link" href="">App developer resources</a>
-          <a class="mdl-navigation__link" href="">Android Open Source Project</a>
-          <a class="mdl-navigation__link" href="">Android SDK</a>
-        </nav>
-      </div>
-
-      <div class="android-content mdl-layout__content">
-        <a name="top"></a>
-        <div id="particles-js" class="android-be-together-section mdl-typography--text-center">
-          <div class="logo-font android-slogan">be together. not the same.</div>
-          <div class="logo-font android-sub-slogan">welcome to android... be yourself. do your thing. see what's going on.</div>
-        </div>
-        <div class="android-screen-section mdl-typography--text-center">
-          <a name="screens"></a>
-          <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
-          <div class="android-screens">
-            <div class="android-wear android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/wear-silver-on.png">
-                <img class="android-screen-image" src="images/wear-black-on.png">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android Wear</a>
-            </div>
-            <div class="android-phone android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/nexus6-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Phones</a>
-            </div>
-            <div class="android-tablet android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/nexus9-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Tablets</a>
-            </div>
-            <div class="android-tv android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/tv-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android TV</a>
-            </div>
-            <div class="android-auto android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/auto-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left" href="">Coming Soon: Android Auto</a>
-            </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="#profile">プロフィール</a>
+        <a class="mdl-navigation__link" href="#portfolio">ポートフォリオ<img class="new-icon" src="images/new_icon.jpg"></a>
+        <a class="mdl-navigation__link" href="http://konyu.bbs.fc2.com/">ゲストブック</a>
+        <a class="mdl-navigation__link" href="">クソアプリを作っている人に100の質問(工事中)</a>
+        <a class="mdl-navigation__link" href="#mypc">我が家のパソコン環境</a>
+        <a class="mdl-navigation__link" href="https://twitter.com/kon_yu">お仕事のご依頼は@kon_yuまで</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <!-- yahoo -->
+        <div>
+          <div style="float:left; width:468px;">
+          <a href="http://rdsig.yahoo.co.jp/geo/geoguide/top/RV=1/RU=aHR0cDovL2dlb2NpdGllcy55YWhvby5jby5qcC8-" target="new" class="geoNav">
+          <span>大容量10GBのジオプラスならドメイン無料！</span>
+          </a>
           </div>
+          <div style="float:left; margin: 0; padding: 0; width: 270px; height: 103px; overflow:hidden; background-color: #ffffff; _zoom: 1;">
+          <div><a href="http://mystore.geocities.yahoo.co.jp/" ontouchend="this.href='http://rdsig.yahoo.co.jp/geo/userpage/bnr/01/RV=1/RU=aHR0cDovL215c3RvcmUuZ2VvY2l0aWVzLnlhaG9vLmNvLmpwLw--'" onmousedown="this.href='http://rdsig.yahoo.co.jp/geo/userpage/bnr/01/RV=1/RU=aHR0cDovL215c3RvcmUuZ2VvY2l0aWVzLnlhaG9vLmNvLmpwLw--'" target="new"><img src="https://i.yimg.jp/images/geo/bnr/01/140609_mystore_270_101.png" width="270" height="101" border="0" alt="Yahoo!ジオシティーズの新機能　お店のホームページが5分で出来る！　マイストアの詳細を見る" title="Yahoo!ジオシティーズの新機能　お店のホームページが5分で出来る！　マイストアの詳細を見る"></a></div></div>
         </div>
-        <div class="android-wear-section">
-          <div class="android-wear-band">
-            <div class="android-wear-band-text">
-              <div class="mdl-typography--display-2 mdl-typography--font-thin">The best of Google built in</div>
-              <p class="mdl-typography--headline mdl-typography--font-thin">
-                Android works perfectly with your favourite apps like Google Maps,
-                Calendar and YouTube.
-              </p>
-              <p>
-                <a class="mdl-typography--font-regular mdl-typography--text-uppercase android-alt-link" href="">
-                  See what's new in the Play Store&nbsp;<i class="material-icons">chevron_right</i>
-                </a>
-              </p>
-            </div>
+        <!-- yahoo -->
+        <div style="clear: both"></div>
+
+        <section class="content" id="profile">
+          <div>
+            Sorry,this site is Japanese ONLY
           </div>
-        </div>
-        <div class="android-customized-section">
-          <div class="android-customized-section-text">
-            <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
-            <p class="mdl-typography--font-light">
-              Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
-              <br>
-              <a href="" class="android-link mdl-typography--font-light">Customise your phone</a>
+
+          <h2 class="heading">ようこそコンユウのホームページへ</h2>
+
+          <h5>
+            あなたは2016/12/01から 100000 +
+            <img src="images/counter.png" style="width: 100px;"/>
+            の訪問者です
+          </h5>
+
+          <h5>About me</h5>
+          <div>
+            <p>趣味：愛猫を愛でること、Maker Faire等イベントに出店すること</p>
+            <p>興味：IoT, ロボット、センサネットワーク、分散協調、機械学習、フィジカルコンピューティング、パーソナルファブリケーション</p>
+            <p>興味の領域をビジネスに持って行きたいと考えている<br/>
+            面白くて役に立つ、そんなものを作って行きたい。</p>
+            <h6>アプリケーション開発言語:</h6>
+            <p>仕事ですぐ使える言語<br/>
+              Ruby(Rails), C#, Processing<br/></p>
+            <p>使える言語:<br/>
+            Java, Objective-C, Swift,  openframeworks</p>
+
+            <h6>インフラ構築:</h6>
+            <p>小規模Linuxシステムを自分で構築運用できる<br/>
+              Herokuを使うことにかけては本番環境での運用経験もあります。Salesfoceでのイベント登壇経験あり<br/>
+              最近はDockerで開発環境を構築するのが好き<br/>
+              AWSﾁｮｯﾄﾃﾞｷﾙ
+            </p>
+            <p>現職CTOなので、チームビルディング、開発体制構築、アジャイル開発、開発ロードマップの作成、エンジニア採用など、開発に関わることなら一通りなんでも出来ます
+            </p>
+
+            <p>
+              やりたいビジネス分野は　O2O、気づき支援、遠隔地間のコラボレーション<br/>
+              個人の知の領域が広がることを支援できるものに興味がある。<br/>
+
+              業務効率と生産性をあげ労働時間の圧縮する組織づくりと、そのノウハウの共有<br/>
+
+              面白くて役に立つ、そんなものを作って行きたい。
+            </p>
+
+          </div>
+
+          <div class="bottom">
+            <div>
+              <h3>リンクについて</h3>
+                当サイトはリンクフリーです。バナーをご使用の場合は下記のバナーをご利用下さい。
+            </div>
+            <div>
+              <a href="https://konyu.github.io/"><img src="images/seisakusyo.png"></a>
+            </div>
+            <p>
+              このホームページはGoogle Chrome Ver. 54.0.2840.98 で動作確認をしております
             </p>
           </div>
-          <div class="android-customized-section-image"></div>
-        </div>
-        <div class="android-more-section">
-          <div class="android-section-title mdl-typography--display-1-color-contrast">More from Android</div>
-          <div class="android-card-container mdl-grid">
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="images/more-from-1.png">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Get going on Android</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Four tips to make your switch to Android quick and easy</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-                   Make the switch
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
+        </section>
+        <section class="content" id="portfolio">
+          <h2>ポートフォリオのページ</h2>
+          <h3>登壇資料</h3>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Date
             </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="images/more-from-4.png">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Create your own Android character</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-                   androidify.com
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              イベント名
             </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="images/more-from-2.png">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Get a clean customisable home screen</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-                   Download now
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="images/more-from-3.png">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Millions to choose from</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-                   Find apps
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              スライド
             </div>
           </div>
-        </div>
-
-        <footer class="android-footer mdl-mega-footer">
-          <div class="mdl-mega-footer--top-section">
-            <div class="mdl-mega-footer--left-section">
-              <button class="mdl-mega-footer--social-btn"></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Sep 27, 2016
             </div>
-            <div class="mdl-mega-footer--right-section">
-              <a class="mdl-typography--font-light" href="#top">
-                Back to Top
-                <i class="material-icons">expand_less</i>
-              </a>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://connpass.com/event/39963/">第一回スタートアップRails勉強会</a>
+            </br/>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/docker-compose-66451859" title="Docker composeで開発環境をメンバに配布せよ" target="_blank">Docker composeで開発環境をメンバに配布せよ</a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Aug 19, 2016
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="http://regional.rubykaigi.org/kwsk01/">川崎Ruby会議01</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/rubyroomba" title="RubyでRoombaをハックする" target="_blank">RubyでRoombaをハックする</a> </strong>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              May 24, 2016
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://connpass.com/event/31779/">管理画面チラ見せナイト3</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/3-62336705" title="管理画面チラ見せナイト3　登壇資料" target="_blank">オンライン英会話サービスのオペレーション業務改善施策</a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Feb 26, 2016
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://eventdots.jp/event/581793">【#TechHub】Career Ngiht!! エンジニアのキャリアを最大化する戦略会議</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/yoshinani-58736396" title="Yoshinani" target="_blank">よしなにエンジニアのすすめ</a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Oct 24, 2015
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://pyladies-tokyo.connpass.com/event/20158/">PyLadies Tokyo - 一周年記念パーティ</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/rubypythondispython" title="RubyエンジニアがPythonをdisるためにPythonを勉強してみた" target="_blank">RubyエンジニアがPythonをdisるためにPythonを勉強してみた</a>
             </div>
           </div>
 
-          <div class="mdl-mega-footer--middle-section">
-            <p class="mdl-typography--font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>
-            <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Aug 21, 2015
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://tech-eight.doorkeeper.jp/events/29672">【テクスタ☆】一社目の企業選びが成功の秘訣！？SE出身ベストティーチャーのCTO今氏が語る、SIerからWebエンジニアへの失敗しない転職方法</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/sierweb-51894411" title="SIerからWebエンジニアへの失敗しない転職方法" target="_blank">SIerからWebエンジニアへの失敗しない転職方法</a>
+            </div>
           </div>
 
-          <div class="mdl-mega-footer--bottom-section">
-            <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
-              Versions
-              <i class="material-icons">arrow_drop_up</i>
-            </a>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
-              <li class="mdl-menu__item">5.0 Lollipop</li>
-              <li class="mdl-menu__item">4.4 KitKat</li>
-              <li class="mdl-menu__item">4.3 Jelly Bean</li>
-              <li class="mdl-menu__item">Android History</li>
-            </ul>
-            <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
-              For Developers
-              <i class="material-icons">arrow_drop_up</i>
-            </a>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
-              <li class="mdl-menu__item">App developer resources</li>
-              <li class="mdl-menu__item">Android Open Source Project</li>
-              <li class="mdl-menu__item">Android SDK</li>
-              <li class="mdl-menu__item">Android for Work</li>
-            </ul>
-            <a class="android-link mdl-typography--font-light" href="">Blog</a>
-            <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Mar 29, 2014
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://tokyu-rubykaigi.doorkeeper.jp/events/9219">TokyuRubyKaigi07</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/tokyu-ruby-kaigi07" title="Tokyu ruby kaigi07" target="_blank">俺らみたいなコミュ症が 合コンに勝利するたった一つ の方法 </a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              Dec 5, 2013
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              ios部@下北沢オープンソースカフェ
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="//www.slideshare.net/kon_yu/appiumiosandroid" title="Appiumを用いたiOS(Android)受け入れテスト" target="_blank">Appiumを用いたiOS(Android)受け入れテスト</a>
+            </div>
           </div>
 
-        </footer>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              June 6, 2015
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://www.facebook.com/events/793311034038312/">おうちハック発表会　＃３</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/outihatukult-roombadenekowojian-shi-sitemita">おうちハックLT Roombaでネコを監視してみた</a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              March 25, 2015
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://kawasakirb.doorkeeper.jp/events/22368">Kawasaki.rb #022</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/gemfalsezuo-rifang-backlogfalseapiwoli-yong-site">Gemの作り方　BacklogのAPIを利用して</a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              December 15, 2014
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              何で発表したか忘れた。確か<a href="https://twitter.com/srockstyle">@srockstyle</a>主催のイベント
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/processingtekurieiteibukodeingu">Processingでクリエイティブコーディング</a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              December 10, 2014
+            </div>
+
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://coedo-dev.doorkeeper.jp/events/17922" >スタートアップツールチラ見せ♡ナイト</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/sutatoatuputurutirajian-senaito">スタートアップツールチラ見せ ナイト</a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              December 4, 2014
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="http://jp.force.com/devzone2014">Salesforce World Tour Tokyo 2014 DevZone</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/herokuterailsahuriyun-yong-falsehahuomansu-seodui-ce">HerokuでRailsアプリ運用のパフォーマンス、SEO対策</a>
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              October 22, 2014
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://kawasakirb.doorkeeper.jp/events/16354">Kawasaki.rb #017</a>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              <a href="https://speakerdeck.com/konyu/herokudewbspao-woda-tifan-sitahua">HerokuでWBS砲を打ち返した話</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="content" id="mypc">
+          <h2>我が家のパソコン環境のページ</h2>
+          <h3>メインマシン MacBook Pro Retina 2013 late 13inch</h3>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              CPU
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              2.4GHzデュアルコアIntel Core i5プロセッサ
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              メモリ
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              16GB DDR3
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              ストレージ
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              SSD 256GB
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              ディスプレイサイズ
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              13.3 インチ
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              ディスプレイ解像度
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              2560 x 1600
+            </div>
+          </div>
+
+          <h3>メインマシン予定　MacBook Pro Retina 2016 late 13inch Touch Bar搭載モデル</h3>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              CPU
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              3.3GHzデュアルコアIntel Core i7プロセッサ
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              メモリ
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              16GB DDR3
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              ストレージ
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              SSD 512GB
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              ディスプレイサイズ
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              13.3 インチ
+            </div>
+          </div>
+          <div class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              ディスプレイ解像度
+            </div>
+            <div class="mdl-cell mdl-cell--4-col table-cell">
+              2560 x 1600
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
-    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/android-dot-com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
-    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    </main>
+    <footer class="footer">
+        © コンユウのホームページ<br/>
+    </footer>
+</body>
+<script type="text/javascript">
+  var $sections = document.querySelectorAll('.content');
+  var height = window.innerHeight;
+  $sections.forEach(function(section, i){
+    if(section.offsetHeight < height){
+      section.style.height = height + 'px';
+      var $bottom = section.querySelectorAll('.bottom')[0];
+      if($bottom != undefined){
+        $bottom.style.top = (height - 300)+ 'px';
+        $bottom.style.position = "absolute";
+      }
+    }
+  });
 
-    <script src="./js/particles.min.js"></script>
-    <script>
-      particlesJS.load('particles-js', 'js/particlesjs-config.json', function() {
-        console.log('callback - particles.js config loaded');
-      });
-    </script>
-  </body>
+</script>
+
+<!--★コピーここから★-->
+
+<style type="text/css">
+/* Circle Text Styles */
+#myText {
+/* Optional - DO NOT SET FONT-SIZE HERE, SET IT IN THE SCRIPT */
+font-style: italic;
+font-weight: bold;
+font-family: 'comic sans ms', verdana, arial;
+color: #ff0000;/*★←文字の色はここで変更*/
+/* End Optional */
+
+/* Start Required - Do Not Edit */
+position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
+#myText div {position: relative;}
+#myText div div {position: absolute;top: 0;left: 0;text-align: center;}
+/* End Required */
+/* End Circle Text Styles */
+</style>
+
+<script type="text/javascript">
+;(function(){
+
+// Your message here (QUOTED STRING)
+var msg = "コンユウのＨｏｍｅｐａｇｅ"; /*★文章はここで変更*/
+
+/* THE REST OF THE EDITABLE VALUES BELOW ARE ALL UNQUOTED NUMBERS */
+
+// Set font's style size for calculating dimensions
+// Set to number of desired pixels font size (decimal and negative numbers not allowed)
+var size = 24;　/*★文字サイズははここで変更*/
+
+// Set both to 1 for plain circle, set one of them to 2 for oval
+// Other numbers & decimals can have interesting effects, keep these low (0 to 3)
+var circleY = 0.75; var circleX = 2;
+
+// The larger this divisor, the smaller the spaces between letters
+// (decimals allowed, not negative numbers)
+var letter_spacing = 5;
+
+// The larger this multiplier, the bigger the circle/oval
+// (decimals allowed, not negative numbers, some rounding is applied)
+var diameter = 10;
+
+// Rotation speed, set it negative if you want it to spin clockwise (decimals allowed)
+var rotation = 0.4;
+
+// This is not the rotation speed, its the reaction speed, keep low!
+// Set this to 1 or a decimal less than one (decimals allowed, not negative numbers)
+var speed = 0.3;
+
+////////////////////// Stop Editing //////////////////////
+
+if (!window.addEventListener && !window.attachEvent || !document.createElement) return;
+
+msg = msg.split('');
+var n = msg.length - 1, a = Math.round(size * diameter * 0.208333), currStep = 20,
+ymouse = a * circleY + 20, xmouse = a * circleX + 20, y = [], x = [], Y = [], X = [],
+o = document.createElement('div'), oi = document.createElement('div'),
+b = document.compatMode && document.compatMode != "BackCompat"? document.documentElement : document.body,
+
+mouse = function(e){
+ e = e || window.event;
+ ymouse = !isNaN(e.pageY)? e.pageY : e.clientY; // y-position
+ xmouse = !isNaN(e.pageX)? e.pageX : e.clientX; // x-position
+},
+
+makecircle = function(){ // rotation/positioning
+ if(init.nopy){
+  o.style.top = (b || document.body).scrollTop + 'px';
+  o.style.left = (b || document.body).scrollLeft + 'px';
+ };
+ currStep -= rotation;
+ for (var d, i = n; i > -1; --i){ // makes the circle
+  d = document.getElementById('iemsg' + i).style;
+  d.top = Math.round(y[i] + a * Math.sin((currStep + i) / letter_spacing) * circleY - 15) + 'px';
+  d.left = Math.round(x[i] + a * Math.cos((currStep + i) / letter_spacing) * circleX) + 'px';
+ };
+},
+
+drag = function(){ // makes the resistance
+ y[0] = Y[0] += (ymouse - Y[0]) * speed;
+ x[0] = X[0] += (xmouse - 20 - X[0]) * speed;
+ for (var i = n; i > 0; --i){
+  y[i] = Y[i] += (y[i-1] - Y[i]) * speed;
+  x[i] = X[i] += (x[i-1] - X[i]) * speed;
+ };
+ makecircle();
+},
+
+init = function(){ // appends message divs, & sets initial values for positioning arrays
+ if(!isNaN(window.pageYOffset)){
+  ymouse += window.pageYOffset;
+  xmouse += window.pageXOffset;
+ } else init.nopy = true;
+ for (var d, i = n; i > -1; --i){
+  d = document.createElement('div'); d.id = 'iemsg' + i;
+  d.style.height = d.style.width = a + 'px';
+  d.appendChild(document.createTextNode(msg[i]));
+  oi.appendChild(d); y[i] = x[i] = Y[i] = X[i] = 0;
+ };
+ o.appendChild(oi); document.body.appendChild(o);
+ setInterval(drag, 25);
+},
+
+ascroll = function(){
+ ymouse += window.pageYOffset;
+ xmouse += window.pageXOffset;
+ window.removeEventListener('scroll', ascroll, false);
+};
+
+o.id = 'myText'; o.style.fontSize = size + 'px';
+
+if (window.addEventListener){
+ window.addEventListener('load', init, false);
+ document.addEventListener('mouseover', mouse, false);
+ document.addEventListener('mousemove', mouse, false);
+  if (/Apple/.test(navigator.vendor))
+   window.addEventListener('scroll', ascroll, false);
+}
+else if (window.attachEvent){
+ window.attachEvent('onload', init);
+ document.attachEvent('onmousemove', mouse);
+};
+
+})();
+// -->
+</script>
+<!--★コピーここまで★-->
 </html>
